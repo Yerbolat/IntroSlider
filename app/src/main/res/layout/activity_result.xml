@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.008"
+            android:text="Тест окончен!!!"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="100dp"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.40"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/graph"
+            />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:text="Here i am!!"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:id="@+id/tex_result" />
+        <Button
+            android:id="@+id/go_login"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_margin="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:text="Next"
+            android:textColor="#fff"
+            android:background="@drawable/next_btn_bg"/>
+    </LinearLayout>
+</RelativeLayout>

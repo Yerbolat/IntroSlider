@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@drawable/layout_bg"
+            android:padding="5dp"
+            android:layout_margin="20dp"
+            android:textColor="#000"
+            />
+
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="37dp"
+                android:id="@+id/textView2" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/radio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="1"
+                    android:layout_weight="1"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:height="70dp"
+                    android:background="@drawable/layout_bg"
+                    android:textSize="30dp"/>
+
+                <Button
+                    android:id="@+id/radio3"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="2"
+                    android:layout_weight="1"
+                    android:height="70dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/layout_bg"
+                    android:textSize="30dp"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/radio0"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:checked="true"
+                android:text="5"
+                android:height="70dp"
+                android:background="@drawable/layout_bg"
+                android:layout_weight="1"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30dp"/>
+            <Button
+                android:id="@+id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="0"
+                android:height="70dp"
+                android:background="@drawable/layout_bg"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_centerInParent="true"
+            android:background="@drawable/unclicked"
+            android:layout_marginTop="80dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:enabled="false"
+            />
+    </LinearLayout>
+</RelativeLayout>
+

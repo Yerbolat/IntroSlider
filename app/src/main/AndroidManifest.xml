@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.introslider">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme"
+        android:name=".App">
+
+        <activity android:name="info.androidhive.introslider.WelcomeActivity"
+            android:noHistory="true">
+        </activity>
+        <activity
+            android:name="info.androidhive.introslider.MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Fizika"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Logarithm"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Derivative"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.ResultActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.LoginActivity"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Theory_Equation"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Registration"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.ActivityUserProfile"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.User"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Equation"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="true"/>
+        <activity
+            android:name="info.androidhive.introslider.Guide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
